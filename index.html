@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton Haman's Interactive CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slippry.css">
+    <script src="js/typed.js"></script>
+    <script>
+    $(function() {
+        $(".myname").typed({
+            strings: ["Anton Haman"],
+            typeSpeed: 60,
+            showCursor: false,
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <div class="container fuck">
+            <h1 class="myname">Anton Haman</h1>
+            <hr>
+            <p>Interactive cv</p>
+        </div>
+    </div>
+    <div class="container-fluid" id="profile">
+        <div class="row">
+            <h1>Profile</h1>
+            <p id="title" class="lead text-center">QA Automation Engineer / Software Developer</p>
+            <hr>
+            <div class="col-sm-4 col-xs-12">
+                <h2>About me</h2>
+                <span>
+                    Hello, I'm Anton, specializing in automated testing of web applications and I'm also interested in software development both front-end and back-end. I'm really interrested in techologies and having fun while coding and learning new stuff. I love getting things done and I also stand for quality, not because of my prefession, but because of my nature 
+                </span>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <p class="text-center">
+                    <img src="img/myphoto.jpg" alt="Anton Haman" class="img-circle">
+                </p>
+            </div>
+            <div class="col-sm-4 col-xs-6" id="details">
+                <h2>Details</h2>
+                <strong>Name:</strong>
+                <p>Anton Haman</p>
+                <strong>Age:</strong>
+                <p>25</p>
+                <strong>Location:</strong>
+                <p>Kiev, Ukraine</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="careers">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Experience</h1>
+                <hr>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Epam Systems</strong>
+                    <p class="small">
+                        April 2017 - Present
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Lecturer at Epam Resource Development Lab (Kyiv Polytechnic Institute)</strong>
+                    <p class="small">
+                        I work at Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of a test automation course for a group of 25 people.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>SmartImprove.me</strong>
+                    <p class="small">February 2017 - April 2017</p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Lecturer &amp; Mentor</strong>
+                    <p class="small">I worked at SmartImprove.me as a lecturer of a test automation course (Java stack) for a group of 15 people.
+                        <br> The following topics were covered during the course:
+                    </p>
+                    <ol style="list-style-type:disc">
+                        <li class="small">Tool for test automation</li>
+                        <li class="small">Test automation frameworks </li>
+                        <li class="small">Test automation techniques and patterns</li>
+                        <li class="small">Build tools </li>
+                        <li class="small">CI systems</li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Levi9 for Backbase</strong>
+                    <p class="small">
+                        April 2017 - Present
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Senior Test Automation Engineer (Consultant)</strong>
+                    <p class="small">
+                        I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc
+                        <br> Responsibilities:
+                    </p>
+                    <ol style="list-style-type:disc">
+                        <li class="small">Developing automation framework from scratch and it's improving</li>
+                        <li class="small">Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js</li>
+                        <li class="small">Participating in setting QA process</li>
+                        <li class="small">Setting CI pipeline for autotests and it’s supporting</li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>EPAM Systems</strong>
+                    <p class="small">
+                        September 2015 - July 2016
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Test Automation Engineer</strong>
+                    <p class="small">
+                        I was involved as a test automation engineer into big e-commerce project for the biggest retail company in Canada along with huge, distributed and multilingual team
+                        <br> Responsibilities:
+                    </p>
+                    <ol style="list-style-type:disc">
+                        <li class="small">Developing and support of BDD autotests using Java stack: Selenium Webdriver, Maven, Serenity, JBehave both for front-end and back-end </li>
+                        <li class="small"> Work with issues in order to cover requirements from customers, improving TAF (Test Automation Framework), analyzing and solving problems with high level of complexity</li>
+                        <li class="small">CI system configuring</li>
+                        <li class="small">Took part in execution of code review process </li>
+                        <li class="small">Mentoring and lecturing students at Epam RD (resource development) lab</li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Softengi - Inspired Software Engineering</strong>
+                    <p class="small">
+                        June 2014 - September 2015
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <strong>Manual/Automation QA Engineer</strong>
+                    <p class="small">
+                        I worked as a Manual/Automation QA Engineer on ERP project for American company, it was old and huge application, just imagine - our automated regression test suite took about 16 hours to execute (in single thread)
+                        <br> Responsibilities:
+                    </p>
+                    <ol style="list-style-type:disc">
+                        <li class="small">Developing and supporting of automated tests using Java and C# stacks (Selenium Webdriver and Telerik Test Studio respectively)</li>
+                        <li class="small">Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, cross-platform</li>
+                        <li class="small">CI system configuring</li>
+                        <li class="small">Bug tracking and reporting</li>
+                        <li class="small">Work with Jira, SpiraTest, Confluence</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
