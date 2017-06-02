@@ -8,6 +8,7 @@
     color: white;
     height: 100vh;
     background: no-repeat center right fixed url(../img/jumbotron.gif);
+    background-size: cover;
 }
 
 .jumbotron div {
