@@ -35,7 +35,6 @@ div .myname {
 }
 
 #profile {
-    /*    padding: 0px 150px;*/
     min-height: 500px;
 }
 
@@ -67,7 +66,9 @@ h2 {
     font-weight: 100;
 }
 
-#profile img {
+#profile img {  
+    height: 150px;
+    width: 150px;
     margin-top: 50px;
     border: 3px solid #9068be;
 }
@@ -103,47 +104,49 @@ h2 {
 
 
 /*// Extra small devices (portrait phones, less than 576px)*/
-
 @media (max-width: 575px) {
-    img {
-        height: 150px;
-        width: 150px;
-    }
-}
 
+}
 
 /*// Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576) and (max-width: 767px) and (max-height: 450) {
 
-@media (min-width: 576) and (max-width: 767px) {
-    img {
-        height: 150px;
-        width: 150px;
-    }
 }
-
 
 /*// Medium devices (tablets, less than 992px)*/
-
 @media (min-width: 768px) and (max-width: 991px) {
     img {
-        height: 100px;
-        width: 100px;
+        height: 160px;
+        width: 160px;
     }
 }
 
 
-/*// Large devices (desktops, less than 1200px)*/
-
-@media (min-width: 992px) {
+/*// Large devices (desktops, less than 1600px)*/
+@media (min-width: 992px) and (max-width: 1599) {
     #profile {
-        padding: 0px 150px;
         min-height: 500px;
     }
     #careers {
-        padding: 15px 250px;
     }
     img {
         height: 160px;
         width: 160px;
     }
 }
+
+/*// Extra large devices (desktops, 1600px and more)*/
+@media (min-width: 1600px) {
+    #profile {
+        padding: 0px 10%;*/
+        min-height: 500px;
+    }
+    #careers {
+        padding: 15px 10%;*/
+    }
+    img {
+        height: 160px;
+        width: 160px;
+    }
+}
+
