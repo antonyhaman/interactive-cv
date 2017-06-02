@@ -10,7 +10,7 @@
     background: no-repeat center right fixed url(../img/jumbotron.gif);
 }
 
-.fuck {
+.jumbotron div {
     position: relative;
     top: 30%;
 }
