@@ -197,11 +197,72 @@ h2 {
     color: #9068be;
 }
 
-.skill-level:hover > span {
+.skills-list li:hover .skill-level > span {
     margin-left: 2px;
     font-size: 13px;
 }
+
+#cv-legend {
+    font-style: italic;
+    margin-top: 20px; 
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0px 10px 0px; 
+    border: 1px solid #9068be;
+    font-size: 20px;
+    color: #9068be;
+    
+}
+
+.button:hover, .button:active {
+    color: #9068be;
+    text-decoration: none;
+    opacity: 0.8;
+}
 /* Skills block ends */
+
+
+/* Footer block starts */
+footer {
+    height: 400px;
+    background-color: #707880; 
+}
+
+#contacts h1 {
+    color: white;
+}
+
+#contacts hr {
+    opacity: 0.2;
+}
+
+#contacts .row > div {
+    padding-top: 30px;
+}
+
+#contacts i {
+    font-size: 30px;
+}
+
+#contacts span {
+    color: white;
+    display: inline-block;
+}
+
+#contacts p {
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px; 
+    display: inline;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+/* Footer block ends */
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
